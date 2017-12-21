@@ -1,0 +1,614 @@
+﻿Log file open, 12/21/17 16:42:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject3
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1001092129) SRandInit(1001092129).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.161464
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.21-15.42.37:717][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-15.42.37:717][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.21-15.42.37:727][  0]LogInit: Computer: ZYRAF-KOMPUTER
+[2017.12.21-15.42.37:727][  0]LogInit: User: Zyraf
+[2017.12.21-15.42.37:727][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.21-15.42.37:727][  0]LogInit: High frequency timer resolution =3.905125 MHz
+[2017.12.21-15.42.37:727][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2017.12.21-15.42.37:727][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.21-15.42.37:727][  0]LogMemory: Process Physical Memory: 281.73 MB used, 281.73 MB peak
+[2017.12.21-15.42.37:727][  0]LogMemory: Process Virtual Memory: 282.34 MB used, 282.34 MB peak
+[2017.12.21-15.42.37:727][  0]LogMemory: Physical Memory: 8158.57 MB used,  16365.52 MB free, 24524.09 MB total
+[2017.12.21-15.42.37:727][  0]LogMemory: Virtual Memory: 696.85 MB used,  16365.52 MB free, 134217728.00 MB total
+[2017.12.21-15.42.37:835][  0]LogInit: Using OS detected language (pl-PL).
+[2017.12.21-15.42.37:835][  0]LogInit: Using OS detected locale (pl-PL).
+[2017.12.21-15.42.37:838][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the language.
+[2017.12.21-15.42.37:839][  0]LogTextLocalizationManager: No localization for 'pl-PL' exists, so 'en' will be used for the locale.
+[2017.12.21-15.42.38:432][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.21-15.42.38:476][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.12.21-15.42.38:476][  0]LogD3D11RHI:       4060/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.12.21-15.42.38:478][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.21-15.42.38:478][  0]LogD3D11RHI:       0/0/12262 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.21-15.42.38:478][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.21-15.42.38:483][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.21-15.42.38:483][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.21-15.42.38:483][  0]LogWindows: EnumDisplayDevices:
+[2017.12.21-15.42.38:483][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.12.21-15.42.38:483][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.21-15.42.38:483][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.21-15.42.38:484][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.12.21-15.42.38:484][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.21-15.42.38:484][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.12.21-15.42.38:484][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.21-15.42.38:484][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.21-15.42.38:484][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.21-15.42.38:507][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.21-15.42.38:520][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.21-15.42.38:568][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Intermediate/Shaders/WorkingDirectory/11532/).
+[2017.12.21-15.42.38:568][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Zyraf/AppData/Local/Temp/UnrealShaderWorkingDir/3927C67B469C7869DF8D7794CE9E8B2C/'.
+[2017.12.21-15.42.38:568][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.21-15.42.39:392][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.21-15.42.39:438][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.21-15.42.39:485][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.21-15.42.39:527][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.21-15.42.39:570][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.21-15.42.39:620][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.21-15.42.39:666][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.21-15.42.39:709][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.21-15.42.39:744][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.21-15.42.39:784][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.21-15.42.39:843][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.21-15.42.39:886][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.21-15.42.39:926][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.21-15.42.39:963][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.21-15.42.40:000][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.21-15.42.40:091][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.21-15.42.40:091][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.21-15.42.40:123][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.21-15.42.40:195][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.21-15.42.40:215][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.21-15.42.40:250][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.21-15.42.40:291][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.21-15.42.40:332][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.21-15.42.40:376][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.21-15.42.40:376][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.21-15.42.40:726][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/Zyraf/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Zyraf/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.21-15.42.40:790][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.21-15.42.40:804][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.21-15.42.40:816][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zyraf/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.21-15.42.40:826][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.21-15.42.40:826][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.21-15.42.40:827][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-15.42.40:827][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.21-15.42.41:072][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.12.21-15.42.41:167][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.21-15.42.41:292][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.21-15.42.41:648][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.21-15.42.41:681][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.21-15.42.41:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.21-15.42.41:681][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.21-15.42.41:681][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.21-15.42.41:681][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.21-15.42.41:999][  0]LogNetVersion: MyProject3 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 843825019)
+[2017.12.21-15.42.42:181][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.030992 seconds
+[2017.12.21-15.42.42:187][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.21-15.42.42:187][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.21-15.42.42:187][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.21-15.42.42:231][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.21-15.42.44:466][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.21-15.42.44:499][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.21-15.42.45:026][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.21-15.42.45:347][  0]SourceControl: Source control is disabled
+[2017.12.21-15.42.45:347][  0]SourceControl: Source control is disabled
+[2017.12.21-15.42.45:386][  0]SourceControl: Source control is disabled
+[2017.12.21-15.42.45:429][  0]SourceControl: Source control is disabled
+[2017.12.21-15.42.45:950][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.21-15.42.46:144][  0]LogOcInput: OculusInput pre-init called
+[2017.12.21-15.42.46:354][  0]LogEngine: Initializing Engine...
+[2017.12.21-15.42.46:356][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.21-15.42.46:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.21-15.42.46:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.21-15.42.46:635][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.21-15.42.46:644][  0]LogInit: XAudio2 using 'Słuchawki (Razer Kraken USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-15.42.46:673][  0]LogInit: FAudioDevice initialized.
+[2017.12.21-15.42.46:759][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Zyraf/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.21-15.42.46:767][  0]LogInit: Texture streaming: Enabled
+[2017.12.21-15.42.46:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.21-15.42.47:033][  0]LogInit: Transaction tracking system initialized
+[2017.12.21-15.42.47:267][  0]BlueprintLog: New page: Editor Load
+[2017.12.21-15.42.47:908][  0]LocalizationService: Localization service is disabled
+[2017.12.21-15.42.48:432][  0]LogConsoleResponse: Display: 
+[2017.12.21-15.42.48:598][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.21-15.42.48:598][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.21-15.42.48:598][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.21-15.42.49:420][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/' took 0.01s
+[2017.12.21-15.42.49:455][  0]SourceControl: Source control is disabled
+[2017.12.21-15.42.49:455][  0]Cmd: MAP LOAD FILE="C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.21-15.42.49:456][  0]LightingResults: New page: Lighting Build
+[2017.12.21-15.42.49:488][  0]MapCheck: New page: Map Check
+[2017.12.21-15.42.49:488][  0]LightingResults: New page: Lighting Build
+[2017.12.21-15.42.49:839][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.21-15.42.49:898][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.21-15.42.49:917][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.21-15.42.49:981][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.509ms to complete.
+[2017.12.21-15.42.49:982][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.526
+[2017.12.21-15.42.50:049][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.21-15.42.50:821][  0]LogCollectionManager: Loaded 0 collections in 0.001877 seconds
+[2017.12.21-15.42.51:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Collections/' took 0.01s
+[2017.12.21-15.42.51:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/Developers/Zyraf/Collections/' took 0.01s
+[2017.12.21-15.42.51:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/Collections/' took 0.01s
+[2017.12.21-15.42.51:025][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.21-15.42.51:033][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2386 classes and 500 folders.
+[2017.12.21-15.42.51:117][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0175 seconds. Added 0 classes and 0 folders.
+[2017.12.21-15.42.52:250][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.12.21-15.42.52:422][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.21-15.42.52:785][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-15.42.52:796][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.21-15.42.52:847][  0]LogSlate: Took 0.009022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.21-15.42.53:385][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.21-15.42.54:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.12.21-15.42.54:022][  0]LogLoad: (Engine Initialization) Total time: 17.85 seconds
+[2017.12.21-15.42.54:022][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.21-15.42.54:022][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.21-15.42.54:022][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.21-15.42.54:131][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.21-15.42.54:241][  0]LogSlate: Took 0.012507 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.42.54:258][  1]LogAssetRegistry: Asset discovery search completed in 13.2070 seconds
+[2017.12.21-15.42.54:260][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.21-15.42.54:260][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.12.21-15.43.16:921][214]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject3
+[2017.12.21-15.43.16:921][214]LogTemp: CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-15.43.16:921][214]LogTemp: Initial Dir: D:\Program Files\UE_4.17
+[2017.12.21-15.43.16:921][214]LogTemp: Env CWD: D:\Program Files\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.21-15.43.16:921][214]LogTemp: BranchPath = ZYRAF-KOMPUTER/D/Program Files/UE_4.17/Engine/Binaries --- GameBranchPath = ZYRAF-KOMPUTER/D/Program Files/UE_4.17/Engine/Binaries
+[2017.12.21-15.43.16:921][214]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Zyraf\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.21-15.44.22:835][983]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.44.23:331][983]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.21-15.44.23:556][983]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2017.12.21-15.44.24:951][983]LogSlate: Took 0.016391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.21-15.44.36:766][889]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.21-15.44.46:526][633]LogSlate: Took 0.018661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: request failed, libcurl error: 35 (SSL connect error)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 0 (  Trying 34.234.221.146...)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (34.234.221.146) port 443 (#0))
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 6 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.12.21-15.44.48:579][709]LogHttp: Warning: 0000025D45C9A980: libcurl info message cache 7 (Closing connection 0)
+[2017.12.21-15.46.07:259][438]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-15.46.07:314][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-15.46.07:314][438]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.21-15.46.07:316][438]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2017.12.21-15.46.07:373][438]LogPlayLevel: PlayLevel: Blueprint regeneration took 59 ms (1 blueprints)
+[2017.12.21-15.46.07:408][438]PIE: New page: PIE session: Minimal_Default (Dec 21, 2017, 5:46:07 PM)
+[2017.12.21-15.46.07:408][438]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.12.21-15.46.07:429][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021060s)
+[2017.12.21-15.46.07:430][438]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.21-15.46.07:430][438]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2017.12.21-15.46.07:430][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022035s)
+[2017.12.21-15.46.07:448][438]LogInit: XAudio2 using 'Słuchawki (Razer Kraken USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-15.46.07:469][438]LogInit: FAudioDevice initialized.
+[2017.12.21-15.46.07:533][438]LogLoad: Game class is 'GameModeBase'
+[2017.12.21-15.46.07:545][438]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.12.21-16.46.07
+[2017.12.21-15.46.07:605][438]LogWorld: Bringing up level for play took: 0.061649
+[2017.12.21-15.46.07:705][438]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.21-15.46.07:746][438]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2017.12.21-15.46.07:757][438]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.306
+[2017.12.21-15.46.07:758][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-15.46.22:125][840]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-15.46.22:177][840]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-15.47.00:623][ 59]LogHttp: Warning: 0000025D4A37FD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.21-15.47.00:623][ 59]LogHttp: Warning: 0000025D4A37FD00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2017.12.21-15.47.00:623][ 59]LogHttp: Warning: 0000025D4A37FD00: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.21-15.47.00:623][ 59]LogHttp: Warning: 0000025D4A37FD00: libcurl info message cache 2 (Closing connection 1)
+[2017.12.21-15.53.09:101][737]LogSavePackage: Save=95.88ms
+[2017.12.21-15.53.09:101][737]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Minimal_Default_Auto1069AE2424C23EDE548EB23A59D240A7B.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.12.21-15.53.09:106][737]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.12.21-15.53.09:108][737]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.192
+[2017.12.21-15.53.09:108][737]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.192
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.SKEL_Char_Robot_C:UserConstructionScript' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.SKEL_Char_Robot_C' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot_C:UserConstructionScript' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot_C' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot:EventGraph.K2Node_Event_0' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot:EventGraph.K2Node_Event_1' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:883][944]LogMetaData: Removing '/Game/Blueprints/Char_Robot.Char_Robot:EventGraph.K2Node_Event_2' ref from Metadata '/Game/UI/Char_Robot.PackageMetaData'
+[2017.12.21-15.54.33:940][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Char_Robot" FILE="C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/Blueprints/Char_Robot.uasset" SILENT=true
+[2017.12.21-15.54.33:960][944]LogSavePackage: Save=16.77ms
+[2017.12.21-15.54.33:960][944]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Char_Robot8CEA75804FD0E345A9717996FE465D9C.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/Blueprints/Char_Robot.uasset'
+[2017.12.21-15.54.33:965][944]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/Blueprints/Char_Robot.uasset
+[2017.12.21-15.57.17:710][551]LogSlate: Took 0.004696 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.12.21-16.00.54:048][676]LogHttp: Warning: 0000025D8FE5EC80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.12.21-16.00.54:049][676]LogHttp: Warning: 0000025D8FE5EC80: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x25d5207bfe8 [can pipeline])
+[2017.12.21-16.00.54:049][676]LogHttp: Warning: 0000025D8FE5EC80: libcurl info message cache 1 (Hostname in DNS cache was stale, zapped)
+[2017.12.21-16.00.54:049][676]LogHttp: Warning: 0000025D8FE5EC80: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.12.21-16.00.54:049][676]LogHttp: Warning: 0000025D8FE5EC80: libcurl info message cache 3 (Closing connection 7)
+[2017.12.21-16.03.19:003][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:145][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:210][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:214][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:215][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:219][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:220][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:229][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:231][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:233][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:234][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:235][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:254][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:256][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:258][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:258][197]LogSavePackage: Save=266.41ms
+[2017.12.21-16.03.19:258][197]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/BP_LightStudioE2F6738F408636F4FDF09385D43F14FA.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/BP_LightStudio.uasset'
+[2017.12.21-16.03.19:262][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:264][197]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:264][197]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.12.21-16.03.19:399][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:407][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:412][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:413][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:415][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:416][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:417][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:420][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:421][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:422][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:423][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:424][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:427][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:429][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:430][198]LogSavePackage: Save=43.14ms
+[2017.12.21-16.03.19:430][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:430][198]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_CeilingLight4B82D9974A53D6293EFBB78EE2AF68FB.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset'
+[2017.12.21-16.03.19:434][198]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:434][198]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.12.21-16.03.19:646][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:651][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:654][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:655][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:657][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:658][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:659][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:662][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:663][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:665][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:666][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:667][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:669][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:670][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:671][199]LogSavePackage: Save=38.08ms
+[2017.12.21-16.03.19:671][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:671][199]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_Effect_ExplosionDDBD041C4F10855872F275A8B359B553.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2017.12.21-16.03.19:675][199]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:676][199]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.12.21-16.03.19:821][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:825][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:828][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:830][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:831][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:832][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:833][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:835][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:836][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:838][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:839][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:840][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:841][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:842][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:843][200]LogSavePackage: Save=33.47ms
+[2017.12.21-16.03.19:844][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:844][200]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_Effect_Fire8B162E0E4480CA2747F6CCA448986A8C.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset'
+[2017.12.21-16.03.19:848][200]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:849][200]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.12.21-16.03.19:913][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:917][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:921][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:923][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:924][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:926][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:927][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:930][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:931][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:933][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:934][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:936][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:937][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:939][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:940][201]LogSavePackage: Save=38.20ms
+[2017.12.21-16.03.19:940][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:940][201]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_Effect_Smoke2D1BC264461A49662FC18F843DA4C671.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset'
+[2017.12.21-16.03.19:945][201]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.19:945][201]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.12.21-16.03.20:024][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:028][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:031][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:033][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:034][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:035][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:037][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:039][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:040][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:042][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:043][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:045][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:046][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:048][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:049][202]LogSavePackage: Save=36.90ms
+[2017.12.21-16.03.20:049][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:049][202]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_Effect_Sparks3F5B374F43D16C567D7857A30409211A.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset'
+[2017.12.21-16.03.20:053][202]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:054][202]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.12.21-16.03.20:118][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:122][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:125][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:126][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:127][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:129][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:130][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:132][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:133][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:134][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:135][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:136][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:137][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:138][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:139][203]LogSavePackage: Save=31.56ms
+[2017.12.21-16.03.20:139][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:139][203]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_Effect_SteamF62C080847F955A046DA3B921FAD2F69.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset'
+[2017.12.21-16.03.20:144][203]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:145][203]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.12.21-16.03.20:201][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:210][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:216][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:218][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:219][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:220][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:221][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:223][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:224][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:225][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:226][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:227][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:230][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:231][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:232][204]LogSavePackage: Save=41.35ms
+[2017.12.21-16.03.20:233][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:233][204]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Blueprint_WallSconce43B8922848857A5078654C87F2EC7464.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset'
+[2017.12.21-16.03.20:236][204]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2017.12.21-16.03.20:237][204]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: request failed, libcurl error: 35 (SSL connect error)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 0 (Connection 8 seems to be dead!)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 1 (Closing connection 8)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 3 (  Trying 52.20.233.124...)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (52.20.233.124) port 443 (#9))
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 7 (SSL re-using session ID)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.12.21-16.03.20:595][236]LogHttp: Warning: 0000025D55880880: libcurl info message cache 10 (Closing connection 9)
+[2017.12.21-16.07.21:896][969]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:288).
+[2017.12.21-16.10.03:316][762]LogSavePackage: Save=69.39ms
+[2017.12.21-16.10.03:316][762]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Minimal_Default_Auto242A8BFED49DA4869162B88AD16BE038A.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.12.21-16.10.03:319][762]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.12.21-16.10.03:321][762]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.109
+[2017.12.21-16.10.03:321][762]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2017.12.21-16.10.03:323][762]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/UI_GameInterface] ([1] browsable assets)...
+[2017.12.21-16.10.03:323][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/UI_GameInterface]
+[2017.12.21-16.10.03:361][762]LogSavePackage: Save=29.77ms
+[2017.12.21-16.10.03:361][762]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/UI_GameInterface_Auto2D296C80D4D6273AFFD4820A3453CF54C.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/UI/UI_GameInterface_Auto2.uasset'
+[2017.12.21-16.10.03:363][762]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/UI/UI_GameInterface_Auto2.uasset
+[2017.12.21-16.10.03:363][762]LogFileHelpers: Auto-saving content packages took 0.042
+[2017.12.21-16.10.16:957][370]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: request failed, libcurl error: 35 (SSL connect error)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 0 (Connection 13 seems to be dead!)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 1 (Closing connection 13)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 3 (  Trying 34.234.242.30...)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (34.234.242.30) port 443 (#14))
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 7 (SSL re-using session ID)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.12.21-16.13.04:293][400]LogHttp: Warning: 0000025DC168DC00: libcurl info message cache 10 (Closing connection 14)
+[2017.12.21-16.20.04:069][658]LogSavePackage: Save=68.51ms
+[2017.12.21-16.20.04:069][658]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Minimal_Default_Auto3705F058A4E6F54A232148B8BE27FF58B.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.12.21-16.20.04:072][658]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.12.21-16.20.04:074][658]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.106
+[2017.12.21-16.20.04:074][658]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.106
+[2017.12.21-16.22.37:388][916]BlueprintLog: New page: Compile BP_Level1
+[2017.12.21-16.22.41:395][285]BlueprintLog: New page: Compile Minimal_Default
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: request failed, libcurl error: 35 (SSL connect error)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x25d5207bfe8 [serially])
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 1 (Hostname datarouter.ol.epicgames.com was found in DNS cache)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 2 (  Trying 52.203.4.103...)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 3 (Connected to datarouter.ol.epicgames.com (52.203.4.103) port 443 (#22))
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 4 (ALPN, offering http/1.1)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 5 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 6 (SSL re-using session ID)
+[2017.12.21-16.28.36:332][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.21-16.28.36:333][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 8 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2017.12.21-16.28.36:333][947]LogHttp: Warning: 0000025DBA67CD00: libcurl info message cache 9 (Closing connection 22)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x25d5207bfb8 [can pipeline])
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 1 (Re-using existing connection! (#20) with host datarouter.ol.epicgames.com)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.226.118.112) port 443 (#20))
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 3 (upload completely sent off: 358 out of 358 bytes)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 6 (Closing connection 20)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B08D084AB-45B4-C7B6-C57B-7B9F7A622EF2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=23c754d44e53d7898a541d8110ea67f6%7Cb39641a989ac45b7a28b1170c2492e71%7Caf757f45-739e-4e3f-9550-33a1f2373f02&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 9 (  Trying 52.203.4.103...)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 10 (connect to 52.203.4.103 port 443 failed: Timed out)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 11 (  Trying 52.203.110.56...)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 12 (connect to 52.203.110.56 port 443 failed: Timed out)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 13 (  Trying 52.204.72.234...)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 14 (Connected to datarouter.ol.epicgames.com (52.204.72.234) port 443 (#21))
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 15 (ALPN, offering http/1.1)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 16 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 17 (SSL re-using session ID)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 19 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 20 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 22 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 23 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 24 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 25 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 26 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 27 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 28 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 29 (ALPN, server did not agree to a protocol)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 30 (old SSL session ID is stale, removing)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 31 (Server certificate:)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 32 (	 subject: CN=*.ol.epicgames.com)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 33 (	 start date: Mar 23 00:00:00 2017 GMT)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 34 (	 expire date: Apr 23 12:00:00 2018 GMT)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 35 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 36 (	 issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 37 (	 SSL certificate verify ok.)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 38 (upload completely sent off: 358 out of 358 bytes)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 39 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 40 (Empty reply from server)
+[2017.12.21-16.28.48:333][983]LogHttp: Warning: 0000025DBC8FE800: libcurl info message cache 41 (Connection #21 to host datarouter.ol.epicgames.com left intact)
+[2017.12.21-16.30.04:972][321]LogSavePackage: Save=71.17ms
+[2017.12.21-16.30.04:972][321]LogSavePackage: Moving 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Minimal_Default_Auto4B3E729EA40F81503A4BE97A161E079BB.tmp' to 'C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2017.12.21-16.30.04:975][321]LogSavePackage: Display: Finished SavePackage C:/Users/Zyraf/Documents/Unreal Projects/robocik/MyProject3/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2017.12.21-16.30.04:977][321]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.107
+[2017.12.21-16.30.04:977][321]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.107
+[2017.12.21-16.38.38:144][941]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.21-16.38.38:160][941]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-16.38.38:160][941]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.12.21-16.38.38:163][941]LogPlayLevel: [PlayLevel] Compiling Minimal_Default before play...
+[2017.12.21-16.38.38:185][941]LogPlayLevel: [PlayLevel]   Compiling UI_GameInterface as a dependent...
+[2017.12.21-16.38.38:321][941]LogPlayLevel: PlayLevel: Blueprint regeneration took 161 ms (2 blueprints)
+[2017.12.21-16.38.38:322][941]PIE: New page: PIE session: Minimal_Default (Dec 21, 2017, 6:38:38 PM)
+[2017.12.21-16.38.38:322][941]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.12.21-16.38.38:325][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003152s)
+[2017.12.21-16.38.38:326][941]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.12.21-16.38.38:326][941]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2017.12.21-16.38.38:326][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004368s)
+[2017.12.21-16.38.38:347][941]LogInit: XAudio2 using 'Słuchawki (Razer Kraken USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.21-16.38.38:374][941]LogInit: FAudioDevice initialized.
+[2017.12.21-16.38.38:427][941]LogLoad: Game class is 'GameModeBase'
+[2017.12.21-16.38.38:428][941]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.12.21-17.38.38
+[2017.12.21-16.38.38:428][941]LogWorld: Bringing up level for play took: 0.001166
+[2017.12.21-16.38.38:429][941]PIE: Error: SetInputMode_UIOnly expects a valid player controller as target
+[2017.12.21-16.38.38:453][941]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.39
+[2017.12.21-16.38.38:454][941]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-16.38.45:218][611]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.12.21-16.38.45:253][611]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
